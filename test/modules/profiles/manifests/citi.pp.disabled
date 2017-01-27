@@ -1,0 +1,12 @@
+class profiles::citi {
+class { 'xor_win_modules::any_connect':
+} ->
+class { 'xor_win_modules::jdk8':
+} ->
+class { 'xor_win_modules::jre8':
+} ->
+class { 'xor_win_modules::skype':
+} ->
+class { 'xor_win_modules::webexplayer':
+}
+}

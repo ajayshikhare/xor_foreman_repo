@@ -1,0 +1,2 @@
+mcollective_agent_puppet::config:
+  command: C:\Program Files\Puppet Labs\Puppet\bin\puppet.bat agent

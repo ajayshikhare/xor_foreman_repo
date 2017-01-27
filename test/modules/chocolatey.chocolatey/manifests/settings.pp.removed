@@ -1,0 +1,39 @@
+class chocolatey::settings {
+
+chocolateysource {'chocolateyweb':
+  ensure   => present,
+  location => 'https://chocolatey.org/api/v2',
+  priority => 0,
+}
+
+chocolateysource { 'localweb':
+  ensure   => present,
+  location => 'http://xormonsrvp01/xornuget/api/v2/',
+  priority => 2,
+}
+
+chocolateysource { 'local':
+  ensure => present,
+  location => 'c:\packages',
+  priority => 1,
+}
+
+chocolateyfeature {'usepackageexitcodes':
+  ensure => disbaled,
+}
+
+chocolateyfeature {'allowEmptyChecksums':
+  ensure => disbaled,
+}
+
+chocolateyfeature {'allowEmptyChecksumsSecure':
+  ensure => disbaled,
+}
+
+chocolateyfeature {'checksumFiles':
+  ensure => disabled,
+}
+
+require chocolatey
+
+}

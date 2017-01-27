@@ -1,0 +1,14 @@
+{
+  "name": "ajayshikhare-profiles",
+  "version": "0.1.0",
+  "author": "ajayshikhare",
+  "summary": "Profiles to be used to deploy the required software as well to manage the ordering between them.",
+  "license": "Apache 2.0",
+  "source": "https://github.com/ajayshikhare/Xor_Puppet_Profiles",
+  "project_page": "https://github.com/ajayshikhare/Xor_Puppet_Profiles",
+  "issues_url": "https://github.com/ajayshikhare/Xor_Puppet_Profiles/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+

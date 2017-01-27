@@ -1,0 +1,14 @@
+{
+  "name": "ajayshikhare-roles",
+  "version": "0.1.0",
+  "author": "ajayshikhare",
+  "summary": "This module provided the various role classes for different Xoriant clients.",
+  "license": "Apache 2.0",
+  "source": "https://github.com/ajayshikhare/xor_puppet_repo",
+  "project_page": "https://github.com/ajayshikhare/xor_puppet_repo",
+  "issues_url": "https://github.com/ajayshikhare/xor_puppet_repo/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+

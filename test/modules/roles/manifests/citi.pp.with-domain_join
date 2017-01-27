@@ -1,0 +1,11 @@
+class roles::citi {
+
+class {'profiles::join_domain':
+} ->
+class {'profiles::base':
+} ->
+
+class {'profiles::citi':
+ stage => 'stage01',
+}
+}

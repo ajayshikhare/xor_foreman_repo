@@ -1,0 +1,7 @@
+class roles::citi {
+  contain profiles::base
+  contain profiles::citi
+
+Class['profiles::base'] -> Class['profiles::citi']
+
+}

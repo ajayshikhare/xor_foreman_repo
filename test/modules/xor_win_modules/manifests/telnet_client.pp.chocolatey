@@ -1,0 +1,9 @@
+class xor_win_modules::telnet_client {
+
+package {'TelnetClient':
+  ensure => present,
+  provider => 'chocolatey',
+  source => 'windowsfeatures',
+}
+}
+
